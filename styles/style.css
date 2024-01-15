@@ -5,4 +5,56 @@
     box-sizing: border-box;
     font-family: "Mulish", sans-serif;
 }
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
 /*! shared styles end */
+
+/* nav styles start */
+nav{
+    padding: 50px 0;
+}
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo h3{
+    font-size: 28px;
+    font-weight: 800;
+}
+.logo .excursions{
+    color: #FF5400;
+}
+.nav-item{
+    width: 50%;
+}
+.nav-item ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-item ul li{
+    list-style: none;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 44px;
+    transition: all linear 0.2s;
+}
+.nav-item ul li:first-child a{
+    margin-left: 0;
+}
+.nav-item ul li a:hover{
+    color: #FF5400;
+    font-weight: 700;
+}
+/* nav styles end */
