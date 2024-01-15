@@ -1,0 +1,15 @@
+@media screen and (max-width: 576px) {
+    .nav-item{
+        display: none;
+    }
+    .logo{
+        width: 90%;
+    }
+    .logo h3, .excursions{
+        font-size: 18px;
+    }
+    .hamburger{
+        display: block;
+        font-size: 25px;
+    }
+}
