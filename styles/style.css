@@ -9,6 +9,29 @@
     max-width: 1170px;
     margin: 0 auto;
 }
+.section-heading{
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-details{
+    line-height: 24px;
+    color: rgba(19, 19, 24, 0.70);
+    margin: 24px 0;
+}
+.btn-primary{
+    padding: 14px 35px;
+    background-color: #FF5400;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #FF5400;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+}
+.btn-primary:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid #FF5400;
+}
 /*! shared styles end */
 
 /*! nav styles start */
@@ -119,3 +142,16 @@ nav{
 .banner-content .banner-inputs .searches:last-child i{
     color: white;}
 /*! banner styles end */
+
+/*! popular-tour styles start */
+#popular-tour{
+    padding: 100px 0;
+}
+#popular-tour .popular-tour-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#popular-tour .popular-tour-wrapper .popular-tour-details{
+    width: 50%;
+}
+/*! popular-tour styles end */
