@@ -11,7 +11,7 @@
 }
 /*! shared styles end */
 
-/* nav styles start */
+/*! nav styles start */
 nav{
     padding: 50px 0;
 }
@@ -60,4 +60,62 @@ nav{
 .hamburger{
     display: none;
 }
-/* nav styles end */
+/*! nav styles end */
+
+/*! banner styles start */
+#banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/banner.png");
+    padding: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* #banner .banner-content{
+    width: 90%;
+    margin: 0 auto;
+} */
+#banner .banner-content .banner-heading{
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner-details{
+    color: white;
+    line-height: 26px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.banner-content .banner-inputs{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    margin-top: 56px;
+    cursor: pointer;
+}
+.banner-content .banner-inputs p, i{
+    color: rgba(19, 19, 24, 0.5);
+}
+.banner-content .banner-inputs .searches{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: white;
+    width: 174px;
+    height: 50px;
+    padding: 0 10px ;
+}
+.banner-content .banner-inputs .searches:last-child{
+    background-color: #FF5400;
+}
+.banner-content .banner-inputs .searches:last-child p{
+    color: white;}
+.banner-content .banner-inputs .searches:last-child i{
+    color: white;}
+/*! banner styles end */
