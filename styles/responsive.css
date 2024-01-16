@@ -1,5 +1,4 @@
 @media screen and (max-width: 576px) {
-    /*! header section */
     nav,
     #popular-tour
     {
@@ -18,7 +17,6 @@
         display: block;
         font-size: 25px;
     }
-    /*! banner section */
     #banner{
         padding: 10px;
         margin: 20px;
@@ -36,7 +34,9 @@
     .img-wrapper,
     .choose-card,
     .perfect-place-wrapper,
-    .newsletter-wrapper
+    .newsletter-wrapper,
+    .discount-wrapper,
+    .register-buttons
     {
         flex-direction: column;
         gap: 16px;
@@ -46,12 +46,12 @@
         align-items: center;
         gap: 10px;
     }
-    /*! popular-tour section */
     #popular-tour,
     #newsletter,
     #perfect-place,
     #choose,
-    #destination
+    #destination,
+    #discount
     {
         padding: 20px;
     }
@@ -76,7 +76,6 @@
     {
         width: 100%;
     }
-    /*! destination part  */
     .section-heading{
         font-size: 24px;
     }
@@ -97,5 +96,7 @@
     footer{
         padding: 30px 0;
     }
-    /*! why choose us part */
+    .register-buttons{
+        flex-direction: column;
+    }
 }

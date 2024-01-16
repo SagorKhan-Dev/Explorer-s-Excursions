@@ -1,4 +1,4 @@
-/*! shared styles start */
+/* shared styles start */
 *{
     margin: 0;
     padding: 0;
@@ -38,12 +38,9 @@
     font-weight: 800;
     font-size: 28px;
 }
-/* .none{
-    display: none;
-} */
-/*! shared styles end */
+/* shared styles end */
 
-/*! nav styles start */
+/* nav styles start */
 nav{
     padding: 50px 0;
 }
@@ -92,9 +89,9 @@ nav{
 .hamburger{
     display: none;
 }
-/*! nav styles end */
+/* nav styles end */
 
-/*! banner styles start */
+/* banner styles start */
 #banner{
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/banner.png");
@@ -150,9 +147,9 @@ nav{
     color: white;}
 .banner-content .banner-inputs .searches:last-child i{
     color: white;}
-/*! banner styles end */
+/* banner styles end */
 
-/*! popular-tour styles start */
+/* popular-tour styles start */
 #popular-tour{
     padding: 100px 0;
 }
@@ -163,9 +160,9 @@ nav{
 #popular-tour .popular-tour-wrapper .popular-tour-details{
     width: 50%;
 }
-/*! popular-tour styles end */
+/* popular-tour styles end */
 
-/*! destination styles start */
+/* destination styles start */
 #destination{
     padding-bottom: 100px;
 }
@@ -245,9 +242,9 @@ nav{
 .gap{
     margin-top: 2%;
 }
-/*! destination styles end */
+/* destination styles end */
 
-/*! choose styles start */
+/* choose styles start */
 #choose{
     margin-bottom: 100px;
 }
@@ -316,9 +313,9 @@ nav{
     color: #5A5A5D;
     line-height: 26px;
 }
-/*! choose styles end */
+/* choose styles end */
 
-/*! perfect section styles start */
+/* perfect section styles start */
 /* #perfect-place{
 
 } */
@@ -328,9 +325,9 @@ nav{
 .perfect-place-wrapper ul li{
     margin-bottom: 20px;
 }
-/*! perfect section styles end */
+/* perfect section styles end */
 
-/*! newsletter section styles start */
+/* newsletter section styles start */
 #newsletter{
     padding: 100px 0;
 }
@@ -390,9 +387,9 @@ nav{
     color: white;
     text-align: center;
 }
-/*! newsletter section styles end */
+/* newsletter section styles end */
 
-/*! footer part start */
+/* footer part start */
 footer{
     padding: 110px 0;
     background: rgba(19, 19, 24, 0.05);
@@ -438,4 +435,37 @@ footer{
     text-align: center;
     margin-top: 50px;
 }
-/*! footer part end */
+/* footer part end */
+
+/* Extra section start */
+#discount{
+    background: url("../images/world-map.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.discount-wrapper{
+    display: flex;
+    align-items: center;
+}
+.btn-register{
+    padding: 14px 35px;
+    color: black;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid #FF5400;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+}
+.btn-register:hover{
+    background-color: #FF5400;
+    color: white;
+    border: 1px solid #FF5400;
+}
+.register-buttons{
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* Extra section end */
