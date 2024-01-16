@@ -391,3 +391,51 @@ nav{
     text-align: center;
 }
 /*! newsletter section styles end */
+
+/*! footer part start */
+footer{
+    padding: 110px 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-logo h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-logo .footer-excursions{
+    color: #FF5400;
+}
+.footer-details{
+    width: 670px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.footer-social-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.footer-social-links i{
+    color: rgba(19, 19, 24, 1);
+}
+.footer-content hr{
+    width: 880px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.1);
+}
+.copyright{
+    color: #131318;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+}
+/*! footer part end */

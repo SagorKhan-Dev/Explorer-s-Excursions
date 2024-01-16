@@ -41,9 +41,6 @@
         flex-direction: column;
         gap: 16px;
     }
-    .banner-content .banner-inputs .searches {
-        width: 100%;
-    }
     .banner-content .banner-inputs .searches:last-child {
         justify-content: center;
         align-items: center;
@@ -53,11 +50,14 @@
     #popular-tour,
     #newsletter,
     #perfect-place,
-    #choose
+    #choose,
+    #destination
     {
         padding: 20px;
     }
-    #popular-tour .popular-tour-wrapper .popular-tour-details {
+    #popular-tour .popular-tour-wrapper .popular-tour-details,
+    .footer-details
+    {
         width: 90%;
     }
     #popular-tour .popular-tour-img img,
@@ -71,21 +71,21 @@
     #destination .north-america,
     #destination .srilanka,
     #destination .indonesia,
-    #destination .maldives
+    #destination .maldives,
+    .banner-content .banner-inputs .searches
     {
         width: 100%;
     }
     /*! destination part  */
-    #destination{
-        padding: 10px;
-    }
     .section-heading{
         font-size: 24px;
     }
     .section-details{
         font-size: 14px;
     }
-    .save{
+    .save,
+    .footer-content hr
+    {
         width: 60%;
     }
     .save p{
@@ -93,6 +93,9 @@
     }
     .save h3{
         font-size: 22px;
+    }
+    footer{
+        padding: 30px 0;
     }
     /*! why choose us part */
 }
