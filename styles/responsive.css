@@ -32,7 +32,8 @@
         font-size: 14px;
     }
     .banner-content .banner-inputs,
-    .popular-tour-wrapper
+    .popular-tour-wrapper,
+    .img-wrapper
     {
         flex-direction: column;
         gap: 16px;
@@ -52,4 +53,24 @@
     #popular-tour .popular-tour-wrapper .popular-tour-details {
         width: 90%;
     }
+    /*! destination part  */
+    #destination{
+        padding: 10px;
+    }
+    .section-heading{
+        font-size: 24px;
+    }
+    .section-details{
+        font-size: 14px;
+    }
+    #destination .bandarban,
+    #destination .bangladesh,
+    #destination .kashmir,
+    #destination .north-america,
+    #destination .srilanka,
+    #destination .indonesia,
+    #destination .maldives{
+        width: 100%;
+    }
+
 }
