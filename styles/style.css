@@ -38,9 +38,9 @@
     font-weight: 800;
     font-size: 28px;
 }
-/* .none{
+.none{
     display: none;
-} */
+}
 /*! shared styles end */
 
 /*! nav styles start */
@@ -317,3 +317,16 @@ nav{
     line-height: 26px;
 }
 /*! choose styles end */
+
+/*! perfect section styles start */
+/* #perfect-place{
+
+} */
+.perfect-place-wrapper{
+    display: flex;
+}
+.perfect-place-wrapper ul li{
+    margin-bottom: 20px;
+}
+
+/*! perfect section styles end */
