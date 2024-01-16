@@ -33,7 +33,8 @@
     }
     .banner-content .banner-inputs,
     .popular-tour-wrapper,
-    .img-wrapper
+    .img-wrapper,
+    .choose-card
     {
         flex-direction: column;
         gap: 16px;
@@ -53,6 +54,9 @@
     #popular-tour .popular-tour-wrapper .popular-tour-details {
         width: 90%;
     }
+    #popular-tour .popular-tour-img img{
+        width: 100%;
+    }
     /*! destination part  */
     #destination{
         padding: 10px;
@@ -70,6 +74,13 @@
     #destination .srilanka,
     #destination .indonesia,
     #destination .maldives{
+        width: 100%;
+    }
+    /*! why choose us part */
+    #choose{
+        padding: 10px;
+    }
+    .price{
         width: 100%;
     }
 

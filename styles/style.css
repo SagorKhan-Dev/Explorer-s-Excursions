@@ -246,3 +246,74 @@ nav{
     margin-top: 2%;
 }
 /*! destination styles end */
+
+/*! choose styles start */
+#choose{
+    margin-bottom: 100px;
+}
+#choose .choose-heading, .choose-details{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    margin-bottom: 40px;
+}
+.choose-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.hotel{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+.map{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+.price{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.map h4{
+ color: #131318;
+ font-size: 24px;
+ font-weight: 800;
+ margin-top: 32px;
+ margin-bottom: 18px;
+}
+.hotel h4{
+ color: #131318;
+ font-size: 24px;
+ font-weight: 800;
+ margin-top: 32px;
+ margin-bottom: 18px;
+}
+.price h4{
+ color: #131318;
+ font-size: 24px;
+ font-weight: 800;
+ margin-top: 32px;
+ margin-bottom: 18px;
+}
+.map p{
+    color: #5A5A5D;
+    line-height: 26px;
+}
+.hotel p{
+    color: #5A5A5D;
+    line-height: 26px;
+}
+.price p{
+    color: #5A5A5D;
+    line-height: 26px;
+}
+/*! choose styles end */
