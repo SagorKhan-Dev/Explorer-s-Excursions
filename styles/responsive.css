@@ -35,7 +35,8 @@
     .popular-tour-wrapper,
     .img-wrapper,
     .choose-card,
-    .perfect-place-wrapper
+    .perfect-place-wrapper,
+    .newsletter-wrapper
     {
         flex-direction: column;
         gap: 16px;
@@ -49,14 +50,28 @@
         gap: 10px;
     }
     /*! popular-tour section */
-    #popular-tour{
+    #popular-tour,
+    #newsletter,
+    #perfect-place,
+    #choose
+    {
         padding: 20px;
     }
     #popular-tour .popular-tour-wrapper .popular-tour-details {
         width: 90%;
     }
     #popular-tour .popular-tour-img img,
-    #perfect-place .perfect-place-wrapper img
+    #perfect-place .perfect-place-wrapper img,
+    .newsletter-img img,
+    .price,
+    .news-section,
+    #destination .bandarban,
+    #destination .bangladesh,
+    #destination .kashmir,
+    #destination .north-america,
+    #destination .srilanka,
+    #destination .indonesia,
+    #destination .maldives
     {
         width: 100%;
     }
@@ -70,23 +85,14 @@
     .section-details{
         font-size: 14px;
     }
-    #destination .bandarban,
-    #destination .bangladesh,
-    #destination .kashmir,
-    #destination .north-america,
-    #destination .srilanka,
-    #destination .indonesia,
-    #destination .maldives{
-        width: 100%;
+    .save{
+        width: 60%;
+    }
+    .save p{
+        font-size: 16px;
+    }
+    .save h3{
+        font-size: 22px;
     }
     /*! why choose us part */
-    #choose{
-        padding: 10px;
-    }
-    .price{
-        width: 100%;
-    }
-    #perfect-place{
-        padding: 10px;
-    }
 }
