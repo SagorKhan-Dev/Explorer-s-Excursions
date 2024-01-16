@@ -94,7 +94,7 @@ nav{
 /* banner styles start */
 #banner{
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/banner.png");
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/banner.png");
     padding: 160px;
     background-position: center;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ nav{
     justify-content: space-between;
 }
 #destination .maldives {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/maldives.png");
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/maldives.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +186,7 @@ nav{
     width: 49%;
 }
 #destination .indonesia {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/indonesia.png");
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/indonesia.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,7 +195,7 @@ nav{
     width: 49%;
 }
 #destination .srilanka {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/srilanka.png");
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/srilanka.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,7 +204,7 @@ nav{
     width: 29%;
 }
 #destination .north-america {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/north-america.png");
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/north-america.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -213,7 +213,7 @@ nav{
     width: 42%;
 }
 #destination .kashmir {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/kashmir.png");
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/kashmir.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -222,7 +222,7 @@ nav{
     width: 24%;
 }
 #destination .bangladesh {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/bangladesh.png");
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/bangladesh.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,7 +231,7 @@ nav{
     width: 39%;
 }
 #destination .bandarban {
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/bandarban.png");
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/bandarban.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -439,7 +439,7 @@ footer{
 
 /* Extra section start */
 #discount{
-    background: url("../images/world-map.png");
+    background: url("../Images/world-map.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
