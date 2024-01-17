@@ -36,7 +36,8 @@
     .perfect-place-wrapper,
     .newsletter-wrapper,
     .discount-wrapper,
-    .register-buttons
+    .register-buttons,
+    .deals-time-person-location
     {
         flex-direction: column;
         gap: 16px;
@@ -51,7 +52,8 @@
     #perfect-place,
     #choose,
     #destination,
-    #discount
+    #discount,
+    #deals
     {
         padding: 20px;
     }
@@ -98,5 +100,9 @@
     }
     .register-buttons{
         flex-direction: column;
+    }
+    .first-deal,
+    .second-deal{
+        padding: 180px 16px 16px;
     }
 }
